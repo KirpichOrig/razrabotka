@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titlee, .title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.students-list, .clubs-list, .student-info, .student-count, .expelled, .check {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #555;
+}
+
+.students-list, .clubs-list, .student-info {
+    line-height: 1.5;
+}
+
+.students-list {
+    padding-bottom: 10px;
+}
